@@ -1,0 +1,8 @@
+# Visual Studio Code
+.vscode/
+
+#C build output
+build
+
+#C compiled  output
+bin
