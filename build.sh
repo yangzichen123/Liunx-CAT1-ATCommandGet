@@ -15,6 +15,12 @@ case "$1" in
       rm -rf ./bin ./build
       echo "Done"
       ;;
+    "-l" )
+      echo "Serching..."
+      # 查找设备可用串口
+      sudo dmesg |grep 'ttyUSB\|tty\|ttyS'
+      echo "Done"
+      ;;
     *)
       echo "Invalid option: $1"
       exit 1

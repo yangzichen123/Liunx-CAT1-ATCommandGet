@@ -1,6 +1,6 @@
 # Linux下通过AT串口获取模块信息
 
-[![github](https://img.shields.io/badge/Version-V1.0.0-green.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Build-passing-brightgreen.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/-Ubuntu-yellow?logo=Ubuntu)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Tools-GCC&Cmake-critical.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Auther-Yangzc-orange.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet) 
+[![github](https://img.shields.io/badge/Version-V1.0.1-green.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Build-passing-brightgreen.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/-Ubuntu-yellow?logo=Ubuntu)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Tools-GCC&Cmake-critical.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet)  [![github](https://img.shields.io/badge/Auther-Yangzc-orange.svg)](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet) 
 
 本工程使用C语言编写，由Cmake构建，GCC编译，可以从模块挂载的AT串口读取模块的各种数据，支持自行添加AT指令，并且会保存读出的数据到本地。串口波特率默认为115200，数据位：8，停止位：1，奇偶校验位：0。
 
@@ -20,7 +20,7 @@
 
 * 从Git拉取工程到本地。
 
-* 进入到工程目录下编译，编译指令：``./build.sh -b``，清除指令``./build.sh -c``。
+* 进入到工程目录下编译，编译指令：``./build.sh -b``，清除指令``./build.sh -c``，如果需要查找可用串口，可以使用``./build.sh -l``来查找。
 
 * 确认生成如下目录结构：
   
