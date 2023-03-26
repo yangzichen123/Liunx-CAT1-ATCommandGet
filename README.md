@@ -72,6 +72,6 @@
 
 - 有关技术支持，请联系[yangzc@lierda.com]()。
 
-- 对于功能要求和错误修复，请直接提交[issue]()。
+- 对于功能要求和错误修复，请直接提交[issue](https://github.com/yangzichen123/Liunx-CAT1-ATCommandGet/issues)。
 
 如果看到会尽快给你一个答复。
